@@ -1,4 +1,4 @@
-# immunology-skills
+# biology-antibodies-skills
 
 Claude Code skills for antibody work — the drug and business side, the literature, the bench reagent, the sequence data, engineering of existing antibodies, and computational design of nanobody and antibody binders — plus a brief for the AI × Antibodies hackathon in Oslo.
 
@@ -19,8 +19,8 @@ Each skill keeps its steps in `SKILL.md` and pushes the tables and detail into `
 ## Install
 
 ```bash
-git clone https://github.com/0xcvaliente/immunology-skills.git
-cd immunology-skills
+git clone https://github.com/0xcvaliente/biology-antibodies-skills.git
+cd biology-antibodies-skills
 ./install.sh          # copies every skill into ~/.claude/skills (re-run after a git pull)
 ./install.sh --link   # or symlink them, so the clone is the single source
 ```
