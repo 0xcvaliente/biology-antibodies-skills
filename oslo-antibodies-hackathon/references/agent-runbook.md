@@ -20,7 +20,7 @@ Each step ends when its *done* line is true.
 
 ## Two repositories, two jobs
 
-| | Skills repository (`immunology-skills`) | Team repository |
+| | Skills repository (`biology-antibodies-skills`) | Team repository |
 |---|---|---|
 | What it is | Prepared tooling and knowledge, public, existed before the event | Everything created today: the submission |
 | Holds | Skills, scripts, tests | `task.md`, `decision-log.md`, designs, `selection.csv`, `methods.md`, the team's own skill |

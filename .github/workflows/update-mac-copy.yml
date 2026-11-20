@@ -1,5 +1,5 @@
 # Fast-forwards the Mac copy of this repository
-# ($HOME/Documents/projects-repo/immunology-skills) to origin/main, then runs
+# ($HOME/Documents/projects-repo/biology-antibodies-skills) to origin/main, then runs
 # ./install.sh --link only when a skill was added, deleted or renamed, or a
 # skill folder lacks its ~/.claude/skills symlink. Runs on the self-hosted
 # runner on the Mac (label mac-sync).
@@ -86,7 +86,7 @@ jobs:
           AFTER: ${{ steps.ff.outputs.after }}
         run: |
           set -euo pipefail
-          cd "$HOME/Documents/projects-repo/immunology-skills"
+          cd "$HOME/Documents/projects-repo/biology-antibodies-skills"
           clone="$(pwd)"
           reasons=()
           # Case 1: a SKILL.md was added, deleted or renamed by this pull.

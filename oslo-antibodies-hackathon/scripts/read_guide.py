@@ -34,7 +34,7 @@ SNAPSHOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "refer
 
 
 def fetch(url, timeout=30):
-    req = urllib.request.Request(url, headers={"User-Agent": "immunology-skills-read-guide/1.0"})
+    req = urllib.request.Request(url, headers={"User-Agent": "biology-antibodies-skills-read-guide/1.0"})
     with urllib.request.urlopen(req, timeout=timeout) as resp:
         return resp.read().decode("utf-8", errors="replace")
 
